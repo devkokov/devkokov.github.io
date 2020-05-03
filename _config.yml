@@ -23,6 +23,9 @@ twitter_username: devkokov
 github_username: devkokov
 linkedin_username: kokov
 google_analytics: UA-165386721-1
+show_excerpts: true
+header_pages:
+  -
 
 # Build settings
 markdown: kramdown
