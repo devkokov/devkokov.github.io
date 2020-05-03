@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: kokov.uk
-email: dm.kokov@gmail.com
+email: dimitar@kokov.uk
 description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,10 +22,25 @@ url: "https://kokov.uk" # the base hostname & protocol for your site, e.g. http:
 twitter_username: devkokov
 github_username: devkokov
 linkedin_username: kokov
-google_analytics: UA-165386721-1
 show_excerpts: true
 header_pages:
   -
+
+# SEO
+google_analytics: UA-165386721-1
+lang: en_GB
+author: "Dimitar Kokov"
+social:
+  name: "Dimitar Kokov"
+  links:
+    - https://twitter.com/devkokov
+    - https://www.linkedin.com/in/kokov
+    - https://github.com/devkokov
+    - https://keybase.io/devkokov
+    - https://instagram.com/devkokov
+twitter:
+  username: devkokov
+  card: summary
 
 # Build settings
 markdown: kramdown
